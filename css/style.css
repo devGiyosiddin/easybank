@@ -184,10 +184,10 @@ img {
 .hero__title {
   margin: 0 0 24px;
   color: var(--black);
-    font-size: 56px;
-    font-weight: 100;
-    line-height: 64px;
-    letter-spacing: -1px;
+  font-size: 56px;
+  font-weight: 100;
+  line-height: 64px;
+  letter-spacing: -1px;
 }
 
 .hero__text {
@@ -204,6 +204,67 @@ img {
 }
 
 
+/* FEATURES */
+.features {
+  padding: 96px 0 94px;
+  background-color: #F4F5F7;
+}
+
+.feature__title {
+  margin: 0 0 16px;
+  color: var(--black);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 64px;
+  letter-spacing: -0.714px;
+}
+
+.feature__text {
+  width: 635px;
+  margin: 0 0 72px;
+  color: var(--grey);
+  font-style: normal;
+  letter-spacing: -0.281px;
+}
+
+.features__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.features__item {
+  width: 255px;
+}
+
+.features__item-img {
+  width: 72px;
+  height: 72px;
+  flex-shrink: 0;
+  margin-bottom: 40px;
+}
+
+.features__item-title {
+  margin: 0 0 26px;
+  color: var(--black);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 100;
+  letter-spacing: -0.429px;
+}
+
+.features__item-text {
+  margin: 0;
+  color: var(--grey);
+  font-size: 16px;
+  font-style: normal;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+}
+
 /* RETINA */
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min--moz-device-pixel-ratio: 2),
@@ -212,6 +273,6 @@ only screen and (min-device-pixel-ratio: 2),
 only screen and (min-resolution: 192dpi),
 only screen and (min-resolution: 2dppx) {
   .hero {
-      background: url("../img/hero-bg@2x.png");
-    }
+    background: url("../img/hero-bg@2x.png");
+  }
 }
