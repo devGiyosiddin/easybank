@@ -210,7 +210,7 @@ img {
   background-color: #F4F5F7;
 }
 
-.feature__title {
+.features__title {
   margin: 0 0 16px;
   color: var(--black);
   font-size: 40px;
@@ -220,7 +220,7 @@ img {
   letter-spacing: -0.714px;
 }
 
-.feature__text {
+.features__text {
   width: 635px;
   margin: 0 0 72px;
   color: var(--grey);
