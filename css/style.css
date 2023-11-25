@@ -1,6 +1,6 @@
 /* CUSTOM PROPS */
 :root {
-  --gradiend-green: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+  --gradiend: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
   --green: #30C88F;
   --black: #2D314D;
   --grey: #9597A5;
@@ -84,6 +84,7 @@ img {
   text-decoration: none;
   border-radius: 22px;
   background-color: var(--green);
+  background-image: var(--gradiend);
 }
 .button:hover {
   opacity: 0.7;
@@ -192,6 +193,7 @@ img {
 .hero__text {
   margin: 0 0 36px;
 }
+
 
 .hero__img {
   position: absolute;
