@@ -82,6 +82,7 @@ img {
   font-weight: 500;
   line-height: 28px;
   text-decoration: none;
+  border: 0;
   border-radius: 22px;
   background-color: var(--green);
   background-image: var(--gradiend);
@@ -365,9 +366,9 @@ img {
   display: block;
 }
 
-.site-footer__socials-icon {
-  width: 20px;
-  height: 20px;
+.site-footer__socials-link:hover svg,
+.site-footer__socials-link:hover svg path {
+  fill: var(--green);
 }
 
 .site-footer__links {
@@ -410,7 +411,6 @@ img {
 
 .site-footer_C {
   margin: 0;
-  margin-top: 24px;
   opacity: 0.5;
   color: #FFF;
     text-align: right;
